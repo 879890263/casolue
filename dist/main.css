@@ -1,0 +1,50 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#banner{
+  position: relative;
+  height:497.53px;
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+img{
+width: 800px;
+display: block;
+float: left;
+}
+.box{
+position: absolute;
+
+transition: all 0.5s;
+
+}
+.left{
+position: absolute;
+width: 50px;
+height: 100px;
+top: 50%;
+margin-top: -50px;
+left: 0;
+font-size: 30px;
+text-align: center;
+color:white;
+line-height: 100px;
+background: rgba(0, 0,0,0.5)
+
+}
+.right{
+position: absolute;
+width: 50px;
+height: 100px;
+top: 50%;
+margin-top: -50px;
+right: 0;
+ font-size: 30px;
+text-align: center;
+color:white;
+line-height: 100px;
+background: rgba(0, 0,0,0.5)
+}
